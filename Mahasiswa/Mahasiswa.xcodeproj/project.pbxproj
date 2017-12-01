@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		392535511FC6C8ED00897456 /* matkulTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392535501FC6C8ED00897456 /* matkulTableViewController.swift */; };
+		392535531FC6C90600897456 /* matkulTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392535521FC6C90600897456 /* matkulTableViewCell.swift */; };
+		392535551FC6C92300897456 /* matkuldetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392535541FC6C92300897456 /* matkuldetailViewController.swift */; };
+		392535571FC6C93200897456 /* matkulinputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392535561FC6C93200897456 /* matkulinputViewController.swift */; };
+		39AE07B31FC670B100A1A5B0 /* dosenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE07B21FC670B100A1A5B0 /* dosenTableViewCell.swift */; };
+		39AE07B51FC670D000A1A5B0 /* dosenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE07B41FC670D000A1A5B0 /* dosenTableViewController.swift */; };
+		39AE07B71FC670EE00A1A5B0 /* dosendetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE07B61FC670EE00A1A5B0 /* dosendetailViewController.swift */; };
+		39AE07B91FC670FC00A1A5B0 /* doseninputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE07B81FC670FC00A1A5B0 /* doseninputViewController.swift */; };
+		39AE07BB1FC675E500A1A5B0 /* database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE07BA1FC675E500A1A5B0 /* database.swift */; };
+		39C10E381FC6A8A9002BCBFC /* mahasiswaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C10E371FC6A8A9002BCBFC /* mahasiswaTableViewController.swift */; };
+		39C10E3A1FC6A8BA002BCBFC /* mahasiswaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C10E391FC6A8BA002BCBFC /* mahasiswaTableViewCell.swift */; };
+		39C10E3C1FC6A8CD002BCBFC /* mahasiswainputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C10E3B1FC6A8CD002BCBFC /* mahasiswainputViewController.swift */; };
+		39C10E3E1FC6A8DC002BCBFC /* mahasiswadetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C10E3D1FC6A8DC002BCBFC /* mahasiswadetailViewController.swift */; };
+		58CB57B41FC3EE1A00F500BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CB57B31FC3EE1A00F500BB /* AppDelegate.swift */; };
+		58CB57B61FC3EE1A00F500BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CB57B51FC3EE1A00F500BB /* ViewController.swift */; };
+		58CB57B91FC3EE1A00F500BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58CB57B71FC3EE1A00F500BB /* Main.storyboard */; };
+		58CB57BB1FC3EE1A00F500BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58CB57BA1FC3EE1A00F500BB /* Assets.xcassets */; };
+		58CB57BE1FC3EE1A00F500BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58CB57BC1FC3EE1A00F500BB /* LaunchScreen.storyboard */; };
+		9A5BDD7026F83029CBF147F1 /* Pods_Mahasiswa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3BAEC9F189108E181DE615 /* Pods_Mahasiswa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2ED4EAE09BCADD0592EA4C9A /* Pods-Mahasiswa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mahasiswa.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mahasiswa/Pods-Mahasiswa.release.xcconfig"; sourceTree = "<group>"; };
+		392535501FC6C8ED00897456 /* matkulTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matkulTableViewController.swift; sourceTree = "<group>"; };
+		392535521FC6C90600897456 /* matkulTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matkulTableViewCell.swift; sourceTree = "<group>"; };
+		392535541FC6C92300897456 /* matkuldetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matkuldetailViewController.swift; sourceTree = "<group>"; };
+		392535561FC6C93200897456 /* matkulinputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matkulinputViewController.swift; sourceTree = "<group>"; };
+		39AE07B21FC670B100A1A5B0 /* dosenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dosenTableViewCell.swift; sourceTree = "<group>"; };
+		39AE07B41FC670D000A1A5B0 /* dosenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dosenTableViewController.swift; sourceTree = "<group>"; };
+		39AE07B61FC670EE00A1A5B0 /* dosendetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dosendetailViewController.swift; sourceTree = "<group>"; };
+		39AE07B81FC670FC00A1A5B0 /* doseninputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doseninputViewController.swift; sourceTree = "<group>"; };
+		39AE07BA1FC675E500A1A5B0 /* database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = database.swift; sourceTree = "<group>"; };
+		39C10E371FC6A8A9002BCBFC /* mahasiswaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mahasiswaTableViewController.swift; sourceTree = "<group>"; };
+		39C10E391FC6A8BA002BCBFC /* mahasiswaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mahasiswaTableViewCell.swift; sourceTree = "<group>"; };
+		39C10E3B1FC6A8CD002BCBFC /* mahasiswainputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mahasiswainputViewController.swift; sourceTree = "<group>"; };
+		39C10E3D1FC6A8DC002BCBFC /* mahasiswadetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mahasiswadetailViewController.swift; sourceTree = "<group>"; };
+		4C3BAEC9F189108E181DE615 /* Pods_Mahasiswa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mahasiswa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58CB57B01FC3EE1A00F500BB /* Mahasiswa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mahasiswa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58CB57B31FC3EE1A00F500BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58CB57B51FC3EE1A00F500BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58CB57B81FC3EE1A00F500BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58CB57BA1FC3EE1A00F500BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58CB57BD1FC3EE1A00F500BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58CB57BF1FC3EE1A00F500BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0B09B633DD597BFB11D6462 /* Pods-Mahasiswa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mahasiswa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mahasiswa/Pods-Mahasiswa.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58CB57AD1FC3EE1A00F500BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A5BDD7026F83029CBF147F1 /* Pods_Mahasiswa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58CB57A71FC3EE1A00F500BB = {
+			isa = PBXGroup;
+			children = (
+				58CB57B21FC3EE1A00F500BB /* Mahasiswa */,
+				58CB57B11FC3EE1A00F500BB /* Products */,
+				EAF33178AB7DFAC6B289B6FA /* Pods */,
+				A6FD3B7B9AD9B2F40931F79B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		58CB57B11FC3EE1A00F500BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58CB57B01FC3EE1A00F500BB /* Mahasiswa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58CB57B21FC3EE1A00F500BB /* Mahasiswa */ = {
+			isa = PBXGroup;
+			children = (
+				58CB57B31FC3EE1A00F500BB /* AppDelegate.swift */,
+				58CB57B51FC3EE1A00F500BB /* ViewController.swift */,
+				58CB57B71FC3EE1A00F500BB /* Main.storyboard */,
+				58CB57BA1FC3EE1A00F500BB /* Assets.xcassets */,
+				58CB57BC1FC3EE1A00F500BB /* LaunchScreen.storyboard */,
+				58CB57BF1FC3EE1A00F500BB /* Info.plist */,
+				39AE07B21FC670B100A1A5B0 /* dosenTableViewCell.swift */,
+				39AE07B41FC670D000A1A5B0 /* dosenTableViewController.swift */,
+				39AE07B61FC670EE00A1A5B0 /* dosendetailViewController.swift */,
+				39AE07B81FC670FC00A1A5B0 /* doseninputViewController.swift */,
+				39AE07BA1FC675E500A1A5B0 /* database.swift */,
+				39C10E371FC6A8A9002BCBFC /* mahasiswaTableViewController.swift */,
+				39C10E391FC6A8BA002BCBFC /* mahasiswaTableViewCell.swift */,
+				39C10E3B1FC6A8CD002BCBFC /* mahasiswainputViewController.swift */,
+				39C10E3D1FC6A8DC002BCBFC /* mahasiswadetailViewController.swift */,
+				392535501FC6C8ED00897456 /* matkulTableViewController.swift */,
+				392535521FC6C90600897456 /* matkulTableViewCell.swift */,
+				392535541FC6C92300897456 /* matkuldetailViewController.swift */,
+				392535561FC6C93200897456 /* matkulinputViewController.swift */,
+			);
+			path = Mahasiswa;
+			sourceTree = "<group>";
+		};
+		A6FD3B7B9AD9B2F40931F79B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C3BAEC9F189108E181DE615 /* Pods_Mahasiswa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAF33178AB7DFAC6B289B6FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0B09B633DD597BFB11D6462 /* Pods-Mahasiswa.debug.xcconfig */,
+				2ED4EAE09BCADD0592EA4C9A /* Pods-Mahasiswa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58CB57AF1FC3EE1A00F500BB /* Mahasiswa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58CB57C21FC3EE1A00F500BB /* Build configuration list for PBXNativeTarget "Mahasiswa" */;
+			buildPhases = (
+				00C58EA7BBF4C32F202D8CD0 /* [CP] Check Pods Manifest.lock */,
+				58CB57AC1FC3EE1A00F500BB /* Sources */,
+				58CB57AD1FC3EE1A00F500BB /* Frameworks */,
+				58CB57AE1FC3EE1A00F500BB /* Resources */,
+				AFF58F8E3B852060C86D576A /* [CP] Embed Pods Frameworks */,
+				757B06A846E0A85856B5CA27 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mahasiswa;
+			productName = Mahasiswa;
+			productReference = 58CB57B01FC3EE1A00F500BB /* Mahasiswa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58CB57A81FC3EE1A00F500BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Nando Septian Husni";
+				TargetAttributes = {
+					58CB57AF1FC3EE1A00F500BB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 58CB57AB1FC3EE1A00F500BB /* Build configuration list for PBXProject "Mahasiswa" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58CB57A71FC3EE1A00F500BB;
+			productRefGroup = 58CB57B11FC3EE1A00F500BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58CB57AF1FC3EE1A00F500BB /* Mahasiswa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58CB57AE1FC3EE1A00F500BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58CB57BE1FC3EE1A00F500BB /* LaunchScreen.storyboard in Resources */,
+				58CB57BB1FC3EE1A00F500BB /* Assets.xcassets in Resources */,
+				58CB57B91FC3EE1A00F500BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00C58EA7BBF4C32F202D8CD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mahasiswa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		757B06A846E0A85856B5CA27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mahasiswa/Pods-Mahasiswa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFF58F8E3B852060C86D576A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mahasiswa/Pods-Mahasiswa-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mahasiswa/Pods-Mahasiswa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58CB57AC1FC3EE1A00F500BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C10E3E1FC6A8DC002BCBFC /* mahasiswadetailViewController.swift in Sources */,
+				39AE07B31FC670B100A1A5B0 /* dosenTableViewCell.swift in Sources */,
+				392535531FC6C90600897456 /* matkulTableViewCell.swift in Sources */,
+				39AE07B51FC670D000A1A5B0 /* dosenTableViewController.swift in Sources */,
+				392535511FC6C8ED00897456 /* matkulTableViewController.swift in Sources */,
+				39C10E381FC6A8A9002BCBFC /* mahasiswaTableViewController.swift in Sources */,
+				58CB57B61FC3EE1A00F500BB /* ViewController.swift in Sources */,
+				39C10E3C1FC6A8CD002BCBFC /* mahasiswainputViewController.swift in Sources */,
+				392535571FC6C93200897456 /* matkulinputViewController.swift in Sources */,
+				39AE07B71FC670EE00A1A5B0 /* dosendetailViewController.swift in Sources */,
+				58CB57B41FC3EE1A00F500BB /* AppDelegate.swift in Sources */,
+				39AE07B91FC670FC00A1A5B0 /* doseninputViewController.swift in Sources */,
+				39AE07BB1FC675E500A1A5B0 /* database.swift in Sources */,
+				392535551FC6C92300897456 /* matkuldetailViewController.swift in Sources */,
+				39C10E3A1FC6A8BA002BCBFC /* mahasiswaTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58CB57B71FC3EE1A00F500BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58CB57B81FC3EE1A00F500BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58CB57BC1FC3EE1A00F500BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58CB57BD1FC3EE1A00F500BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58CB57C01FC3EE1A00F500BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58CB57C11FC3EE1A00F500BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58CB57C31FC3EE1A00F500BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0B09B633DD597BFB11D6462 /* Pods-Mahasiswa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mahasiswa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.putra.Mahasiswa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58CB57C41FC3EE1A00F500BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ED4EAE09BCADD0592EA4C9A /* Pods-Mahasiswa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mahasiswa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.putra.Mahasiswa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58CB57AB1FC3EE1A00F500BB /* Build configuration list for PBXProject "Mahasiswa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58CB57C01FC3EE1A00F500BB /* Debug */,
+				58CB57C11FC3EE1A00F500BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58CB57C21FC3EE1A00F500BB /* Build configuration list for PBXNativeTarget "Mahasiswa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58CB57C31FC3EE1A00F500BB /* Debug */,
+				58CB57C41FC3EE1A00F500BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58CB57A81FC3EE1A00F500BB /* Project object */;
+}

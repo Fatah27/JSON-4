@@ -1,0 +1,6 @@
+framework module Pods_Mahasiswa {
+  umbrella header "Pods-Mahasiswa-umbrella.h"
+
+  export *
+  module * { export * }
+}
